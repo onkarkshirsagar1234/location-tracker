@@ -1,0 +1,11 @@
+db:
+  properties:
+        file: C:\Onkar\Cafe Shop Project\cafeshop\DBProperties.txt
+
+  
+server:
+  port: 1120
+  
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
